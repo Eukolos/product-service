@@ -1,4 +1,4 @@
-package com.eukolos.productservice;
+package com.eukolos.product;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

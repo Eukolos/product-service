@@ -1,8 +1,6 @@
-package com.eukolos.productservice.dto;
+package com.eukolos.product.dto;
 
 import com.eukolos.product.model.Product;
-import org.springframework.data.annotation.CreatedDate;
-import org.springframework.data.annotation.LastModifiedDate;
 
 import java.util.Date;
 import java.util.List;

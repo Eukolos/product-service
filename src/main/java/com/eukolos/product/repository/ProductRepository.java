@@ -1,4 +1,4 @@
-package com.eukolos.productservice.repository;
+package com.eukolos.product.repository;
 
 import com.eukolos.product.model.Product;
 import org.springframework.data.mongodb.repository.MongoRepository;
@@ -10,6 +10,5 @@ import java.util.Optional;
 @Repository
 public interface ProductRepository extends MongoRepository<Product, String> {
     Optional<List<Product>> findProductByOemListContains(String oem);
-    Optional<Boolean> delete(String id);
 }
 

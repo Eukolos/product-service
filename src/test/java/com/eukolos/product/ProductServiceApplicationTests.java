@@ -1,4 +1,4 @@
-package com.eukolos.productservice;
+package com.eukolos.product;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

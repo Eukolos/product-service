@@ -1,4 +1,4 @@
-package com.eukolos.productservice.dto;
+package com.eukolos.product.dto;
 
 import com.eukolos.product.model.Product;
 

@@ -1,4 +1,4 @@
-package com.eukolos.productservice.exception;
+package com.eukolos.product.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

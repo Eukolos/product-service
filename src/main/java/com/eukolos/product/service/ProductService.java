@@ -48,9 +48,9 @@ public class ProductService {
     }
 
     public Boolean deleteProduct(String id){
-        return repository.delete(id)
+        Product product = repository.findById(id)
                 .orElseThrow(()-> new ProductNotFoundException("Product Not Found! " + id));
+        repository.deleteById(product.getId());
+        return true;
     }
-
-
 }

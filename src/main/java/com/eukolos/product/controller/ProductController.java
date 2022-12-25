@@ -1,4 +1,4 @@
-package com.eukolos.productservice.controller;
+package com.eukolos.product.controller;
 
 import com.eukolos.product.dto.ProductAddRequest;
 import com.eukolos.product.dto.ProductDto;
